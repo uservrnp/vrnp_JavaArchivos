@@ -32,7 +32,7 @@ public class archivosTexto {
             FileWriter escritura = new FileWriter(archivo,false);
             escritura.write("Saludos a VRNP");
             escritura.close();
-            System.out.print("Texto añadido con exito!!!!!!!!");
+            System.out.print("Texto añadido con exito!!!!!!!! Prueba de Git");
 
         } catch (IOException exception) {
             exception.printStackTrace(System.out);
